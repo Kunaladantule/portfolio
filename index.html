@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kunal | Full Stack Web Developer</title>
+    <meta name="description"
+        content="Portfolio of Kunal, a Full Stack Web Developer and B.Tech CSE (AI) student at Parul University.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">Kunal<span>.</span></a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link btn-nav">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content reveal">
+                <p class="greeting">Hi, I am</p>
+                <h1 class="name">Kunal Dantule</h1>
+                <h2 class="title">Full Stack <span class="gradient-text">Web Developer</span></h2>
+                <p class="value-prop">Building modern, responsive websites and full-stack applications to solve business
+                    problems and deliver professional projects.</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View My Work <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#contact" class="btn btn-secondary">Hire Me</a>
+                </div>
+            </div>
+            <div class="hero-image reveal-right">
+                <!-- Abstract glowing shape instead of actual image for now -->
+                <div class="glow-shape"></div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about">
+                <div class="mouse"></div>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>About <span class="gradient-text">Me</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text reveal">
+                    <p>I am a passionate <strong>B.Tech CSE (AI) student at Parul University</strong>, with a strong
+                        focus on building high-quality, modern web experiences.</p>
+                    <p>With extensive experience in both <strong>frontend and backend</strong> technologies, as well as
+                        database management, I specialize in creating complete web solutions from the ground up.</p>
+                    <p>My current focus is on <strong>freelance projects</strong>, where I help clients turn their ideas
+                        into reality by delivering robust, scalable, and visually stunning applications.</p>
+
+                    <div class="stats-container">
+                        <div class="stat-item">
+                            <h3>Full Stack</h3>
+                            <p>Development</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>Responsive</h3>
+                            <p>Design</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>Professional</h3>
+                            <p>Delivery</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section-padding bg-alt">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Services <span class="gradient-text">Offered</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="services-grid">
+                <div class="service-card glass reveal">
+                    <div class="icon-wrapper"><i class="fa-solid fa-laptop-code"></i></div>
+                    <h3>Landing Page Development</h3>
+                    <p>High-converting, responsive, and visually appealing landing pages tailored to your brand.</p>
+                </div>
+                <div class="service-card glass reveal delay-1">
+                    <div class="icon-wrapper"><i class="fa-solid fa-layer-group"></i></div>
+                    <h3>Full Stack Web Apps</h3>
+                    <p>End-to-end web applications with robust backend logic and interactive frontend interfaces.</p>
+                </div>
+                <div class="service-card glass reveal delay-2">
+                    <div class="icon-wrapper"><i class="fa-solid fa-network-wired"></i></div>
+                    <h3>API Integration</h3>
+                    <p>Seamless connection of third-party services and custom RESTful APIs to extend functionality.</p>
+                </div>
+                <div class="service-card glass reveal">
+                    <div class="icon-wrapper"><i class="fa-solid fa-database"></i></div>
+                    <h3>Database Design</h3>
+                    <p>Efficient and scalable database architectures using PostgreSQL and ORMs like Prisma.</p>
+                </div>
+                <div class="service-card glass reveal delay-1">
+                    <div class="icon-wrapper"><i class="fa-solid fa-window-restore"></i></div>
+                    <h3>Portfolio Websites</h3>
+                    <p>Custom digital portfolios to showcase your work and attract potential clients or employers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section id="projects" class="projects section-padding">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Featured <span class="gradient-text">Projects</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="project-showcase reveal">
+                <div class="project-card glass">
+                    <div class="project-info">
+                        <div class="project-header">
+                            <h3>Traveloop</h3>
+                            <span class="badge">Featured</span>
+                        </div>
+                        <p class="project-subtitle">Customizable Trip Planner</p>
+                        <p class="project-desc">A comprehensive platform for budget-based trip planning. Features
+                            include interactive map integration, secure authentication, and real-time data processing to
+                            help users build their perfect itineraries seamlessly.</p>
+
+                        <div class="tech-stack">
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                            <span class="tech-tag">Supabase</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Prisma</span>
+                            <span class="tech-tag">Mapbox</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary btn-sm"><i class="fa-solid fa-eye"></i> Live Demo</a>
+                            <a href="#" class="btn btn-outline btn-sm"><i class="fa-brands fa-github"></i> Source
+                                Code</a>
+                        </div>
+                    </div>
+                    <div class="project-visual">
+                        <div class="browser-mockup">
+                            <div class="browser-header">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <div class="browser-content">
+                                <div class="mockup-placeholder">
+                                    <i class="fa-solid fa-map-location-dot"></i>
+                                    <h4>Traveloop Dashboard</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills & Experience Section -->
+    <section id="skills" class="skills-exp section-padding bg-alt">
+        <div class="container">
+            <div class="grid-2-col">
+                <!-- Skills -->
+                <div class="skills-section reveal">
+                    <div class="section-title left">
+                        <h2>My <span class="gradient-text">Skills</span></h2>
+                        <div class="underline"></div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3><i class="fa-solid fa-code"></i> Frontend</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fa-brands fa-html5"></i> HTML</span>
+                            <span class="skill-tag"><i class="fa-brands fa-css3-alt"></i> CSS</span>
+                            <span class="skill-tag"><i class="fa-brands fa-js"></i> JavaScript</span>
+                            <span class="skill-tag"><i class="fa-brands fa-js"></i> TypeScript</span>
+                            <span class="skill-tag"><i class="fa-brands fa-react"></i> React</span>
+                            <span class="skill-tag"><i class="fa-brands fa-react"></i> Next.js</span>
+                            <span class="skill-tag"><i class="fa-brands fa-css3"></i> Tailwind CSS</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3><i class="fa-solid fa-server"></i> Backend</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fa-brands fa-node-js"></i> Node.js</span>
+                            <span class="skill-tag"><i class="fa-solid fa-database"></i> Supabase</span>
+                            <span class="skill-tag"><i class="fa-solid fa-link"></i> Prisma</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3><i class="fa-solid fa-database"></i> Database</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fa-solid fa-database"></i> PostgreSQL</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3><i class="fa-solid fa-wrench"></i> Tools</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fa-brands fa-git-alt"></i> Git</span>
+                            <span class="skill-tag"><i class="fa-brands fa-github"></i> GitHub</span>
+                            <span class="skill-tag"><i class="fa-solid fa-map"></i> Mapbox API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience -->
+                <div class="experience-section reveal delay-1">
+                    <div class="section-title left">
+                        <h2>My <span class="gradient-text">Experience</span></h2>
+                        <div class="underline"></div>
+                    </div>
+
+                    <div class="timeline">
+                        <div class="timeline-item glass">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">jul 2025 - Current</div>
+                            <h3 class="timeline-title">Lab Technician Intern</h3>
+                            <p class="timeline-company">Systems Support Cell-Parul University</p>
+                            <p class="timeline-desc">• Managed Active Directory user accounts and workstation integration. <br>
+                            • Configured and troubleshot hardware and software systems. <br>
+                            • Administered Google Workspace and institutional email accounts. <br>
+                            • Maintained IT asset inventory and ensured smooth lab operations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Get In <span class="gradient-text">Touch</span></h2>
+                <div class="underline"></div>
+                <p class="contact-subtitle">Have a project in mind or want to collaborate? Let's talk about it.</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info glass reveal">
+                    <h3>Contact Information</h3>
+                    <p>Feel free to reach out to me through any of the following platforms.</p>
+
+                    <ul class="contact-links">
+                        <li>
+                            <a href="mailto:kunaldantule@gmail.com" class="contact-item">
+                                <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div class="contact-text">
+                                    <span>Email</span>
+                                    <strong>kunaldantule@gmail.com</strong>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/kunaldantule95/" target="_blank" class="contact-item">
+                                <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                                <div class="contact-text">
+                                    <span>LinkedIn</span>
+                                    <strong>linkedin.com</strong>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Kunaladantule" target="_blank" class="contact-item">
+                                <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+                                <div class="contact-text">
+                                    <span>GitHub</span>
+                                    <strong>github.com</strong>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="whatsapp-cta mt-4">
+                        <a href="https://wa.me/9584668971" target="_blank" class="btn btn-whatsapp full-width">
+                            <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form-container glass reveal delay-1">
+                    <form id="contactForm" class="contact-form">
+                        <input type="hidden" name="access_key" value="49dea5e5-f49d-4288-9aa3-abf41219e0f3">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..."
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary full-width">Send Message <i
+                                class="fa-solid fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-logo">Kunal<span>.</span></div>
+            <div class="footer-socials">
+                <a href="https://github.com/Kunaladantule"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/kunaldantule95/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="mailto:kunaldantule@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <p class="copyright">&copy; <span id="year"></span> Kunal. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
