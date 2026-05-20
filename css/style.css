@@ -981,3 +981,11 @@ footer {
         padding: 1.5rem;
     }
 }
+.hero-profile-image {
+    width: 350px;          /* Adjust size as needed */
+    height: 350px;         /* Keep width and height equal */
+    border-radius: 50%;    /* Makes the image circular */
+    object-fit: cover;     /* Ensures image fills the circle properly */
+    border: 5px solid #ffffff; /* Optional white border */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Optional shadow */
+}
