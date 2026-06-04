@@ -132,6 +132,7 @@ ul {
     cursor: pointer;
     transition: var(--transition);
     border: none;
+    white-space: nowrap;
 }
 
 .btn-primary {
@@ -324,6 +325,7 @@ ul {
 .hero-cta {
     display: flex;
     gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .hero-image {
