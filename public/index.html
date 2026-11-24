@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kunal Dantule | Network & System Administrator</title>
+    <meta name="description"
+        content="Portfolio of Kunal Dantule, System Administrator Intern at LanceSoft India and B.Tech CSE (AI) graduate from Parul University. Specializing in Active Directory, Windows Server, Network Firewalls, Microsoft 365, and ServiceNow SLA management.">
+    <!-- Google Fonts: Outfit (Headings), Inter (Body), Fira Code (Monospace SysAdmin) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom Theme CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Top NOC Telemetry Status Bar -->
+    <div class="telemetry-ticker">
+        <div class="telemetry-group">
+            <span class="telemetry-item">
+                <span class="pulse-dot"></span>
+                <span>STATUS:</span>
+                <strong class="ok">ALL SYSTEMS OPERATIONAL</strong>
+            </span>
+            <span class="telemetry-divider">|</span>
+            <span class="telemetry-item">
+                <i class="fa-solid fa-server"></i>
+                <span>DOMAIN:</span>
+                <strong>PARUL.CORP [ONLINE]</strong>
+            </span>
+            <span class="telemetry-divider">|</span>
+            <span class="telemetry-item">
+                <i class="fa-solid fa-shield-halved"></i>
+                <span>FIREWALL:</span>
+                <strong>ENFORCED (0 BREACHES)</strong>
+            </span>
+            <span class="telemetry-divider">|</span>
+            <span class="telemetry-item">
+                <i class="fa-solid fa-bolt"></i>
+                <span>SERVICENOW SLA:</span>
+                <strong class="ok">98.7% COMPLIANT</strong>
+            </span>
+        </div>
+        <div class="telemetry-group">
+            <span class="telemetry-item">
+                <i class="fa-solid fa-cloud"></i>
+                <span>M365 &amp; WORKSPACE:</span>
+                <strong>SYNCHRONIZED</strong>
+            </span>
+            <span class="telemetry-divider">|</span>
+            <span class="telemetry-item">
+                <span>HOST:</span>
+                <strong>KUNAL-SYSADMIN-NODE</strong>
+            </span>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-prompt">&gt;_</span>
+                <span>Kunal</span><span class="dot">.</span>
+            </a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Competencies</a></li>
+                <li><a href="#projects" class="nav-link">Implementations</a></li>
+                <li><a href="#skills" class="nav-link">Skills &amp; Logs</a></li>
+                <li><a href="#contact" class="nav-link btn-nav"><i class="fa-solid fa-terminal"></i> Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content reveal">
+                <div class="sys-badge">
+                    <span class="pulse-dot"></span>
+                    <span>SYSADMIN // NETWORK INFRASTRUCTURE SPECIALIST</span>
+                </div>
+                <h1 class="name"><span class="cmd-prefix">&gt;</span>Kunal Dantule</h1>
+                <h2 class="title">System <span class="gradient-text">&amp; Network Administrator</span></h2>
+                <p class="value-prop">Managing enterprise IT infrastructure, Windows Domain Controllers, Active Directory security, network firewalls, Microsoft 365, and ServiceNow incident resolution with 1.5+ years of hands-on operational experience.</p>
+                
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-server"></i> View Implementations</a>
+                    <a href="Kunal_Dantule.pdf" target="_blank" class="btn btn-secondary"><i class="fa-solid fa-download"></i> Download Resume</a>
+                    <a href="#contact" class="btn btn-outline"><i class="fa-solid fa-envelope"></i> Get In Touch</a>
+                </div>
+
+                <!-- Hero Quick Telemetry Bar -->
+                <div class="hero-telemetry-grid">
+                    <div class="telemetry-cell">
+                        <span class="cell-label">// Current Assignment</span>
+                        <span class="cell-value">LanceSoft India (SysAdmin Intern)</span>
+                    </div>
+                    <div class="telemetry-cell alt">
+                        <span class="cell-label">// Hands-On Experience</span>
+                        <span class="cell-value">1.5+ Years Enterprise &amp; University</span>
+                    </div>
+                    <div class="telemetry-cell">
+                        <span class="cell-label">// Primary Stack</span>
+                        <span class="cell-value">Windows Server, AD DS, M365</span>
+                    </div>
+                    <div class="telemetry-cell alt">
+                        <span class="cell-label">// ITSM &amp; Ticketing</span>
+                        <span class="cell-value">ServiceNow (SLA Adherence)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hero Image with Network Node Styling -->
+            <div class="hero-image-wrapper reveal-right">
+                <div class="hero-profile-container">
+                    <div class="profile-network-ring"></div>
+                    <img src="KUNAL.jpeg" alt="Kunal Dantule - System Administrator" class="hero-profile-image">
+                    <div class="profile-status-chip">
+                        <span class="pulse-dot"></span>
+                        <span>STATUS: ACTIVE &amp; MONITORING</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <a href="#about" aria-label="Scroll to About Section">
+                <div class="mouse"></div>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="section-title reveal">
+                <div class="section-tag">System Profile</div>
+                <h2>About <span class="gradient-text">Me</span></h2>
+                <div class="underline"></div>
+            </div>
+
+            <div class="about-card glass reveal">
+                <div class="about-terminal-header">
+                    <div class="terminal-dots">
+                        <span class="dot-red"></span>
+                        <span class="dot-yellow"></span>
+                        <span class="dot-green"></span>
+                    </div>
+                    <span>session://kunal-dantule/profile_manifest.sys</span>
+                </div>
+
+                <div class="about-text">
+                    <p>Detail-oriented <strong>System Administrator Intern at LanceSoft India</strong> and <strong>B.Tech CSE (AI) graduate from Parul University</strong>, with <strong>1.5+ years of hands-on experience</strong> across enterprise IT infrastructure support, Windows administration, and end-user operations. Proficient in administering <strong>Microsoft 365, Google Workspace, corporate Outlook profiles, the ServiceNow ticketing portal</strong>, and mission-critical business applications.</p>
+                    <p>Skilled in <strong>user account management, role-based access provisioning, incident management, SLA monitoring</strong>, and comprehensive hardware/software troubleshooting. Experienced in handling high-volume IT support requests, triaging and resolving incidents through ITSM ticketing workflows, and ensuring timely issue resolution to maintain seamless business operations.</p>
+                    <p>In my prior role as a <strong>Desktop and Network Support Intern at Parul University's System Support Cell</strong>, I actively managed <strong>Domain Controllers, Active Directory (AD DS), networking switches, firewalls</strong>, and lab workstation operations. Passionate about maintaining 99.9% system availability, hardening network security, and delivering effective technical support.</p>
+
+                    <div class="stats-container">
+                        <div class="stat-item">
+                            <h3>1.5+</h3>
+                            <p>Years IT Experience</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>AD DS</h3>
+                            <p>Domain Controllers &amp; GPO</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>98%+</h3>
+                            <p>ServiceNow SLA Compliance</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>LAN/WAN</h3>
+                            <p>Firewalls &amp; Network Support</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services / Core Competencies Section -->
+    <section id="services" class="services section-padding bg-alt">
+        <div class="container">
+            <div class="section-title reveal">
+                <div class="section-tag">Technical Capabilities</div>
+                <h2>Core <span class="gradient-text">Competencies</span></h2>
+                <div class="underline"></div>
+            </div>
+
+            <div class="services-grid">
+                <!-- Module 01 -->
+                <div class="service-card glass reveal">
+                    <div>
+                        <div class="card-module-tag">
+                            <span>// MODULE_01</span>
+                            <span class="module-status"><span class="pulse-dot"></span> ACTIVE</span>
+                        </div>
+                        <div class="icon-wrapper"><i class="fa-brands fa-windows"></i></div>
+                        <h3>Windows &amp; Domain Administration</h3>
+                        <p>End-to-end administration of Windows Server, Active Directory (AD DS), Domain Controllers, Group Policy Objects (GPOs), user provisioning, and role-based access control.</p>
+                    </div>
+                    <div class="service-chips">
+                        <span class="chip-tag">Active Directory</span>
+                        <span class="chip-tag">GPO</span>
+                        <span class="chip-tag">DNS/DHCP</span>
+                        <span class="chip-tag">PowerShell</span>
+                    </div>
+                </div>
+
+                <!-- Module 02 -->
+                <div class="service-card glass reveal delay-1">
+                    <div>
+                        <div class="card-module-tag">
+                            <span>// MODULE_02</span>
+                            <span class="module-status"><span class="pulse-dot"></span> ACTIVE</span>
+                        </div>
+                        <div class="icon-wrapper"><i class="fa-solid fa-shield-halved"></i></div>
+                        <h3>Network &amp; Firewall Management</h3>
+                        <p>Configuration of enterprise LAN/WAN setups, firewall rule implementation, routing, switch VLANs, TCP/IP, DNS, DHCP, and secure remote VPN access.</p>
+                    </div>
+                    <div class="service-chips">
+                        <span class="chip-tag">Firewalls</span>
+                        <span class="chip-tag">VLANs</span>
+                        <span class="chip-tag">TCP/IP</span>
+                        <span class="chip-tag">Switching</span>
+                    </div>
+                </div>
+
+                <!-- Module 03 -->
+                <div class="service-card glass reveal delay-2">
+                    <div>
+                        <div class="card-module-tag">
+                            <span>// MODULE_03</span>
+                            <span class="module-status"><span class="pulse-dot"></span> ACTIVE</span>
+                        </div>
+                        <div class="icon-wrapper"><i class="fa-solid fa-cloud"></i></div>
+                        <h3>Microsoft 365 &amp; Cloud Workspace</h3>
+                        <p>Enterprise administration of Microsoft 365 Admin Center, Exchange Online, corporate Outlook configuration, Google Workspace, and Multi-Factor Authentication (MFA).</p>
+                    </div>
+                    <div class="service-chips">
+                        <span class="chip-tag">M365 Admin</span>
+                        <span class="chip-tag">Outlook</span>
+                        <span class="chip-tag">Google Workspace</span>
+                        <span class="chip-tag">MFA</span>
+                    </div>
+                </div>
+
+                <!-- Module 04 -->
+                <div class="service-card glass reveal">
+                    <div>
+                        <div class="card-module-tag">
+                            <span>// MODULE_04</span>
+                            <span class="module-status"><span class="pulse-dot"></span> ACTIVE</span>
+                        </div>
+                        <div class="icon-wrapper"><i class="fa-solid fa-ticket"></i></div>
+                        <h3>ServiceNow &amp; Incident Management</h3>
+                        <p>End-to-end incident, service request, and problem management through the ServiceNow ticketing portal, maintaining strict adherence to Service Level Agreements (SLAs).</p>
+                    </div>
+                    <div class="service-chips">
+                        <span class="chip-tag">ServiceNow</span>
+                        <span class="chip-tag">ITSM</span>
+                        <span class="chip-tag">SLA Tracking</span>
+                        <span class="chip-tag">ITIL</span>
+                    </div>
+                </div>
+
+                <!-- Module 05 -->
+                <div class="service-card glass reveal delay-1">
+                    <div>
+                        <div class="card-module-tag">
+                            <span>// MODULE_05</span>
+                            <span class="module-status"><span class="pulse-dot"></span> ACTIVE</span>
+                        </div>
+                        <div class="icon-wrapper"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                        <h3>Desktop &amp; Hardware Support</h3>
+                        <p>Hardware diagnostics, system assembly, component replacement, OS deployment &amp; imaging, peripheral setup, and preventive system maintenance across enterprise nodes.</p>
+                    </div>
+                    <div class="service-chips">
+                        <span class="chip-tag">Hardware Repair</span>
+                        <span class="chip-tag">OS Imaging</span>
+                        <span class="chip-tag">Diagnostics</span>
+                        <span class="chip-tag">Peripherals</span>
+                    </div>
+                </div>
+
+                <!-- Module 06 -->
+                <div class="service-card glass reveal delay-2">
+                    <div>
+                        <div class="card-module-tag">
+                            <span>// MODULE_06</span>
+                            <span class="module-status"><span class="pulse-dot"></span> ACTIVE</span>
+                        </div>
+                        <div class="icon-wrapper"><i class="fa-solid fa-users-gear"></i></div>
+                        <h3>IT Asset &amp; Access Governance</h3>
+                        <p>User onboarding/offboarding lifecycle, software licensing compliance, audit support, and inventory tracking across enterprise workstations and lab systems.</p>
+                    </div>
+                    <div class="service-chips">
+                        <span class="chip-tag">Provisioning</span>
+                        <span class="chip-tag">Asset Inventory</span>
+                        <span class="chip-tag">Compliance</span>
+                        <span class="chip-tag">Lifecycle</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects / Infrastructure Implementations Section -->
+    <section id="projects" class="projects section-padding">
+        <div class="container">
+            <div class="section-title reveal">
+                <div class="section-tag">Case Studies &amp; Architecture</div>
+                <h2>Infrastructure <span class="gradient-text">Implementations</span></h2>
+                <div class="underline"></div>
+            </div>
+
+            <div class="project-showcase reveal">
+                <!-- Implementation 01: AD DS -->
+                <div class="project-card glass">
+                    <div class="project-info">
+                        <div class="project-header">
+                            <h3>Enterprise Active Directory &amp; Domain Controller</h3>
+                            <span class="badge">Identity &amp; Access</span>
+                        </div>
+                        <p class="project-subtitle">// WINDOWS SERVER DOMAIN SERVICES &amp; CENTRALIZED GPO</p>
+                        <p class="project-desc">Designed and deployed an enterprise Windows Server Domain Controller environment utilizing Active Directory Domain Services (AD DS). Configured nested Organizational Units (OUs), security groups, and automated Group Policy Objects (GPOs) to enforce workstation security baselines, password policies, and software distribution.</p>
+
+                        <div class="tech-stack">
+                            <span class="tech-tag"><i class="fa-brands fa-windows"></i> Windows Server</span>
+                            <span class="tech-tag"><i class="fa-solid fa-sitemap"></i> Active Directory</span>
+                            <span class="tech-tag"><i class="fa-solid fa-server"></i> Domain Controller</span>
+                            <span class="tech-tag"><i class="fa-solid fa-sliders"></i> GPO</span>
+                            <span class="tech-tag"><i class="fa-solid fa-terminal"></i> PowerShell</span>
+                        </div>
+
+                        <div class="project-links">
+                            <span class="badge badge-green"><i class="fa-solid fa-circle-check"></i> Production Deployed &amp; Healthy</span>
+                        </div>
+                    </div>
+                    <div class="project-visual">
+                        <div class="browser-mockup">
+                            <div class="browser-header">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                                <span class="terminal-title">Administrator: Windows PowerShell (DC01.PARUL.CORP)</span>
+                            </div>
+                            <div class="browser-content">
+                                <div><span class="t-cmd">PS C:\&gt;</span> Get-ADDomainController -Filter * | Select Name, OperatingSystem, Status</div>
+                                <div><span class="t-ok">[✓] HOST:</span> DC01.PARUL.CORP | Windows Server 2022</div>
+                                <div><span class="t-ok">[✓] AD DS:</span> Active &amp; Functional | Forest Level: 2016</div>
+                                <div style="margin-top: 0.5rem;"><span class="t-cmd">PS C:\&gt;</span> gpresult /r /scope computer</div>
+                                <div><span class="t-dim">&gt; Applied GPOs:</span> Enterprise-Security-Baseline-v2, Disable-USB-Storage, Password-Policy-90d</div>
+                                <div style="margin-top: 0.5rem;"><span class="t-cmd">PS C:\&gt;</span> Test-NetConnection -Port 53, 88, 389 -ComputerName localhost</div>
+                                <div><span class="t-ok">[✓] Port 53 (DNS):</span> Listening | <span class="t-ok">Port 88 (Kerberos):</span> Active</div>
+                                <div><span class="t-ok">[✓] Port 389 (LDAP):</span> Active | Replication: 0 Errors</div>
+                                <div style="margin-top: 0.5rem;"><span class="t-cmd">PS C:\&gt;</span> <span class="t-cursor"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Implementation 02: ServiceNow -->
+                <div class="project-card glass">
+                    <div class="project-info">
+                        <div class="project-header">
+                            <h3>ServiceNow IT Service Desk &amp; SLA Management</h3>
+                            <span class="badge">ITSM &amp; Operations</span>
+                        </div>
+                        <p class="project-subtitle">// INCIDENT LIFECYCLE &amp; ENTERPRISE SLA RESOLUTION</p>
+                        <p class="project-desc">Managed end-user technical operations handling hundreds of service requests and incidents through ServiceNow at LanceSoft India. Implemented structured ticket prioritization, SLA monitoring, automated email alerts, and escalation matrices to achieve 98%+ SLA compliance for business-critical applications.</p>
+
+                        <div class="tech-stack">
+                            <span class="tech-tag"><i class="fa-solid fa-ticket"></i> ServiceNow</span>
+                            <span class="tech-tag"><i class="fa-solid fa-clock"></i> SLA Monitoring</span>
+                            <span class="tech-tag"><i class="fa-brands fa-microsoft"></i> Microsoft 365</span>
+                            <span class="tech-tag"><i class="fa-solid fa-envelope"></i> Outlook Config</span>
+                            <span class="tech-tag"><i class="fa-solid fa-list-check"></i> ITSM Workflows</span>
+                        </div>
+
+                        <div class="project-links">
+                            <span class="badge badge-green"><i class="fa-solid fa-circle-check"></i> 98.7% SLA Compliance Achieved</span>
+                        </div>
+                    </div>
+                    <div class="project-visual">
+                        <div class="browser-mockup">
+                            <div class="browser-header">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                                <span class="terminal-title">https://lancesoft.service-now.com/navpage.do</span>
+                            </div>
+                            <div class="browser-content">
+                                <div style="display: flex; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,0.08); padding-bottom: 0.5rem; margin-bottom: 0.6rem;">
+                                    <span class="t-cmd">QUEUE: System Support Desk</span>
+                                    <span class="t-ok">SLA Target: 95% | Actual: 98.7%</span>
+                                </div>
+                                <div style="margin-bottom: 0.4rem; padding: 0.35rem 0.5rem; background: rgba(255,255,255,0.03); border-radius: 4px; display: flex; justify-content: space-between;">
+                                    <span><span class="t-warn">[P2] INC08492</span> Outlook M365 Auth Loop</span>
+                                    <span class="t-ok">Resolved (14m)</span>
+                                </div>
+                                <div style="margin-bottom: 0.4rem; padding: 0.35rem 0.5rem; background: rgba(255,255,255,0.03); border-radius: 4px; display: flex; justify-content: space-between;">
+                                    <span><span class="t-dim">[P3] REQ04120</span> Account Provisioning &amp; MFA</span>
+                                    <span class="t-cmd">Completed</span>
+                                </div>
+                                <div style="margin-bottom: 0.4rem; padding: 0.35rem 0.5rem; background: rgba(255,255,255,0.03); border-radius: 4px; display: flex; justify-content: space-between;">
+                                    <span><span class="t-err">[P1] INC08477</span> Core Switch Link Flap</span>
+                                    <span class="t-ok">Mitigated (SLA Met)</span>
+                                </div>
+                                <div style="margin-top: 0.6rem; font-size: 0.75rem; color: #64748b;">
+                                    [TELEMETRY] Total Tickets Handled: 650+ | Average Response: &lt;10 mins
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Implementation 03: Network & Firewall -->
+                <div class="project-card glass">
+                    <div class="project-info">
+                        <div class="project-header">
+                            <h3>Campus Network &amp; Firewall Security Infrastructure</h3>
+                            <span class="badge">Network Infrastructure</span>
+                        </div>
+                        <p class="project-subtitle">// SWITCHING, FIREWALL HARDENING &amp; LAB SEGMENTATION</p>
+                        <p class="project-desc">Assisted in maintaining and troubleshooting campus-wide network infrastructure across multiple computer centers and labs at Parul University. Configured managed network switches, implemented firewall security filtering, segmented traffic using VLANs, and performed rapid diagnosis of packet loss and connectivity issues.</p>
+
+                        <div class="tech-stack">
+                            <span class="tech-tag"><i class="fa-solid fa-shield-halved"></i> Stateful Firewalls</span>
+                            <span class="tech-tag"><i class="fa-solid fa-diagram-project"></i> VLAN 10/20</span>
+                            <span class="tech-tag"><i class="fa-solid fa-ethernet"></i> Managed Switches</span>
+                            <span class="tech-tag"><i class="fa-solid fa-network-wired"></i> TCP/IP</span>
+                            <span class="tech-tag"><i class="fa-solid fa-wifi"></i> Enterprise Wi-Fi</span>
+                        </div>
+
+                        <div class="project-links">
+                            <span class="badge badge-green"><i class="fa-solid fa-circle-check"></i> 99.9% Lab Network Uptime</span>
+                        </div>
+                    </div>
+                    <div class="project-visual">
+                        <div class="browser-mockup">
+                            <div class="browser-header">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                                <span class="terminal-title">admin@gateway-fw01: ~ (SSH)</span>
+                            </div>
+                            <div class="browser-content">
+                                <div><span class="t-cmd">#</span> show interfaces status</div>
+                                <div><span class="t-ok">[UP] eth0 (WAN Gateway):</span> 10.200.1.1/24 | RX: 420 Mbps</div>
+                                <div><span class="t-ok">[UP] eth1 (VLAN 10 - Admin):</span> 192.168.10.1/24 [Active]</div>
+                                <div><span class="t-ok">[UP] eth2 (VLAN 20 - Computer Labs):</span> 172.16.0.1/20 [Active]</div>
+                                <div style="margin-top: 0.5rem;"><span class="t-cmd">#</span> firewall-cmd --state &amp;&amp; iptables -L -n -v | head -n 3</div>
+                                <div><span class="t-ok">[✓] Status: RUNNING</span> (Stateful Inspection Enforced)</div>
+                                <div><span class="t-dim">&gt; Policy:</span> DROP default on external interfaces | Anti-Spoofing: ON</div>
+                                <div><span class="t-ok">[✓] Security:</span> 0 Unauthorized Ingress Attempts | Uptime: 99.98%</div>
+                                <div style="margin-top: 0.5rem;"><span class="t-cmd">admin@gateway-fw01:~#</span> <span class="t-cursor"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills & Experience Section -->
+    <section id="skills" class="skills-exp section-padding bg-alt">
+        <div class="container">
+            <div class="grid-2-col">
+                <!-- Skills Tech Matrix -->
+                <div class="skills-section reveal">
+                    <div class="section-title left">
+                        <div class="section-tag">Tech Stack Matrix</div>
+                        <h2>Technical <span class="gradient-text">Skills</span></h2>
+                        <div class="underline"></div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3><i class="fa-brands fa-windows"></i> Systems &amp; Directory Services</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fa-brands fa-windows"></i> Windows Server</span>
+                            <span class="skill-tag"><i class="fa-solid fa-sitemap"></i> Active Directory (AD DS)</span>
+                            <span class="skill-tag"><i class="fa-solid fa-server"></i> Domain Controller</span>
+                            <span class="skill-tag"><i class="fa-solid fa-sliders"></i> Group Policy (GPO)</span>
+                            <span class="skill-tag"><i class="fa-solid fa-user-gear"></i> User Provisioning</span>
+                            <span class="skill-tag"><i class="fa-solid fa-desktop"></i> Windows 10/11 Pro</span>
+                            <span class="skill-tag"><i class="fa-solid fa-terminal"></i> PowerShell</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3><i class="fa-solid fa-network-wired"></i> Networking &amp; Security</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fa-solid fa-shield-halved"></i> Network Firewalls</span>
+                            <span class="skill-tag"><i class="fa-solid fa-network-wired"></i> TCP/IP</span>
+                            <span class="skill-tag"><i class="fa-solid fa-globe"></i> DNS &amp; DHCP</span>
+                            <span class="skill-tag"><i class="fa-solid fa-diagram-project"></i> VLAN Configuration</span>
+                            <span class="skill-tag"><i class="fa-solid fa-ethernet"></i> LAN / WAN Support</span>
+                            <span class="skill-tag"><i class="fa-solid fa-key"></i> VPN Access</span>
+                            <span class="skill-tag"><i class="fa-solid fa-wifi"></i> Wi-Fi Access Points</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3><i class="fa-solid fa-cloud"></i> Cloud &amp; Enterprise Workspace</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fa-brands fa-microsoft"></i> Microsoft 365 Admin</span>
+                            <span class="skill-tag"><i class="fa-solid fa-envelope"></i> Outlook Configuration</span>
+                            <span class="skill-tag"><i class="fa-solid fa-inbox"></i> Exchange Online</span>
+                            <span class="skill-tag"><i class="fa-brands fa-google"></i> Google Workspace</span>
+                            <span class="skill-tag"><i class="fa-solid fa-lock"></i> Multi-Factor Auth (MFA)</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3><i class="fa-solid fa-ticket"></i> IT Service Management (ITSM)</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fa-solid fa-bolt"></i> ServiceNow Portal</span>
+                            <span class="skill-tag"><i class="fa-solid fa-triangle-exclamation"></i> Incident Management</span>
+                            <span class="skill-tag"><i class="fa-solid fa-clock"></i> SLA Monitoring</span>
+                            <span class="skill-tag"><i class="fa-solid fa-screwdriver-wrench"></i> Hardware Diagnostics</span>
+                            <span class="skill-tag"><i class="fa-solid fa-boxes-stacked"></i> Asset Inventory</span>
+                            <span class="skill-tag"><i class="fa-solid fa-headset"></i> Remote IT Support</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Log Timeline -->
+                <div class="experience-section reveal delay-1">
+                    <div class="section-title left">
+                        <div class="section-tag">Career Event Logs</div>
+                        <h2>Work <span class="gradient-text">Experience</span></h2>
+                        <div class="underline"></div>
+                    </div>
+
+                    <div class="timeline">
+                        <!-- Log 01: LanceSoft -->
+                        <div class="timeline-item glass">
+                            <div class="timeline-dot current"></div>
+                            <div class="timeline-meta">
+                                <span class="timeline-date current"><i class="fa-solid fa-circle-dot"></i> PRESENT</span>
+                                <span class="badge">Enterprise IT</span>
+                            </div>
+                            <h3 class="timeline-title">System Administrator Intern</h3>
+                            <p class="timeline-company"><i class="fa-solid fa-building"></i> LanceSoft India</p>
+                            <div class="timeline-desc">
+                                <div class="log-point">
+                                    <span class="log-bullet">[✓]</span>
+                                    <span>Administer enterprise IT operations, user account management, and access provisioning across diverse business applications.</span>
+                                </div>
+                                <div class="log-point">
+                                    <span class="log-bullet">[✓]</span>
+                                    <span>Manage ServiceNow ticketing portal: triage technical incidents, process service requests, and uphold strict SLA (Service Level Agreement) benchmarks.</span>
+                                </div>
+                                <div class="log-point">
+                                    <span class="log-bullet">[✓]</span>
+                                    <span>Configure and troubleshoot Microsoft 365, corporate Outlook email profiles, and Google Workspace accounts for end-users.</span>
+                                </div>
+                                <div class="log-point">
+                                    <span class="log-bullet">[✓]</span>
+                                    <span>Deliver end-user desktop and software support, resolving hardware, OS, and network connectivity issues promptly.</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Log 02: Parul University -->
+                        <div class="timeline-item glass">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-meta">
+                                <span class="timeline-date">PAST EXP // 1 YEAR</span>
+                                <span class="badge">Campus IT Infrastructure</span>
+                            </div>
+                            <h3 class="timeline-title">Desktop &amp; Network Support Intern</h3>
+                            <p class="timeline-company"><i class="fa-solid fa-graduation-cap"></i> Systems Support Cell — Parul University</p>
+                            <div class="timeline-desc">
+                                <div class="log-point">
+                                    <span class="log-bullet">[✓]</span>
+                                    <span>Administered Active Directory domain controllers, user accounts, and workstation network integration across university computer centers.</span>
+                                </div>
+                                <div class="log-point">
+                                    <span class="log-bullet">[✓]</span>
+                                    <span>Configured and maintained campus network switches, firewalls, and local area network (LAN) connections.</span>
+                                </div>
+                                <div class="log-point">
+                                    <span class="log-bullet">[✓]</span>
+                                    <span>Performed hands-on hardware diagnostics, OS deployment, system repairs, and preventive maintenance on 200+ lab machines.</span>
+                                </div>
+                                <div class="log-point">
+                                    <span class="log-bullet">[✓]</span>
+                                    <span>Managed institutional Google Workspace email accounts and maintained hardware/software IT asset inventory records.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <div class="section-title reveal">
+                <div class="section-tag">Direct Transmission</div>
+                <h2>Get In <span class="gradient-text">Touch</span></h2>
+                <div class="underline"></div>
+                <p class="contact-subtitle">Have an IT infrastructure requirement, support inquiry, or career opportunity? Let's connect.</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info glass reveal">
+                    <div>
+                        <h3>Technical Channels</h3>
+                        <p>Feel free to reach out to me directly through any of the verified channels below.</p>
+
+                        <ul class="contact-links">
+                            <li>
+                                <a href="mailto:kunaldantule@gmail.com" class="contact-item">
+                                    <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                                    <div class="contact-text">
+                                        <span>Direct Email</span>
+                                        <strong>kunaldantule@gmail.com</strong>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/kunaldantule95/" target="_blank" class="contact-item">
+                                    <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                                    <div class="contact-text">
+                                        <span>LinkedIn Profile</span>
+                                        <strong>linkedin.com/in/kunaldantule95/</strong>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/Kunaladantule" target="_blank" class="contact-item">
+                                    <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+                                    <div class="contact-text">
+                                        <span>GitHub Repositories</span>
+                                        <strong>github.com/Kunaladantule</strong>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="whatsapp-cta">
+                        <a href="https://wa.me/9584668971" target="_blank" class="btn btn-whatsapp" style="width: 100%;">
+                            <i class="fa-brands fa-whatsapp"></i> Instant Chat on WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form-container glass reveal delay-1">
+                    <div class="form-terminal-bar">
+                        <span class="pulse-dot"></span>
+                        <span>FORM_INTERFACE: TRANSMISSION_GATEWAY_ACTIVE</span>
+                    </div>
+                    <form id="contactForm" class="contact-form">
+                        <input type="hidden" name="access_key" value="49dea5e5-f49d-4288-9aa3-abf41219e0f3">
+                        <div class="form-group">
+                            <label for="name">// SENDER_NAME</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">// SENDER_EMAIL</label>
+                            <input type="email" id="email" name="email" placeholder="john@company.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">// TRANSMISSION_PAYLOAD</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell me about your IT infrastructure needs, technical support inquiry, or opportunity..."
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">
+                            <i class="fa-solid fa-paper-plane"></i> Transmit Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <span class="prompt">&gt;_</span>
+                    <span>Kunal Dantule</span>
+                </div>
+                <div class="footer-status">
+                    <span class="pulse-dot"></span>
+                    <span>SYSADMIN_STATUS: ONLINE | 99.98% UPTIME RECORD</span>
+                </div>
+            </div>
+
+            <div class="footer-socials">
+                <a href="https://github.com/Kunaladantule" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/kunaldantule95/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="mailto:kunaldantule@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+
+            <p class="copyright">&copy; <span id="year"></span> Kunal Dantule. Network &amp; System Administration.</p>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
